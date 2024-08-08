@@ -1,9 +1,16 @@
 import PropTypes from "prop-types";
+import Navbar from "./Navbar";
 
 function MainContent(props) {
     return (
         <div className={props.className}>
-            I am main content
+           <div>
+                <Navbar />
+           </div>
+
+           <div>
+
+           </div>
         </div>
     )
 }
