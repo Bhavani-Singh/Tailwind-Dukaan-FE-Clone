@@ -18,7 +18,7 @@ function OverView() {
             </div>
 
             <div className="grid grid-cols-3 gap-5">
-                <div className="bg-[#146EB4] hover:bg-[#0E4F82] rounded-[10px] text-white">
+                <div className="bg-[#146EB4] hover:bg-[#0E4F82] rounded-[10px] text-white shadow-sm">
                     <div className="flex flex-col p-5 gap-3">
                         <h5 className="flex gap-3 items-center">
                             Next Payout
@@ -31,8 +31,12 @@ function OverView() {
                             <div className="text-3xl font-medium">
                                 ₹2,312.23
                             </div>
-                            <div className="underline">
-                                23 Orders?
+                            <div className="flex underline">
+                                23 Orders
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+                                
                             </div>
                         </div>
                     </div>
@@ -69,7 +73,7 @@ function OverView() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-4 rounded-[8px] p-4 bg-white h-fit shadow-sm">
+                <div className="flex flex-col gap-4 rounded-[8px] p-5 bg-white h-fit shadow-sm">
                     <h5 className="flex gap-3 items-center">
                         <p>Amount Processed</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
