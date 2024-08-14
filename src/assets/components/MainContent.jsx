@@ -7,7 +7,7 @@ import Footer from "./Footer";
 function MainContent(props) {
     return (
         <div className={props.className}>
-           <div>
+           <div className="sticky top-0">
                 <Navbar />
            </div>
 

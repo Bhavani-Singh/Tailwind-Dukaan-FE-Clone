@@ -1,7 +1,7 @@
 
 function Navbar() {
     return (
-        <div className="flex justify-between items-center items-center px-8 py-3 border-b border-[#D9D9D9] sticky top-0 shadow-sm">
+        <div className="flex justify-between items-center items-center px-8 py-3 border-b border-[#D9D9D9] sticky top-0 bg-white shadow-sm">
             <div className="flex gap-4">
                 <h5 className="font-medium text-xl">
                     Payouts
