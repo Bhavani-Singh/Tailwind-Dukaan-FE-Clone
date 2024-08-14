@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import TopLeftSideBar from "./TopLeftSideBar"; 
 import BottomLeftSideBar from "./BottomLeftSideBar";
 
-function RightSideBar(props) {
+function LeftSideBar(props) {
     return (
         <div className={props.className}>
             <TopLeftSideBar />
@@ -11,8 +11,8 @@ function RightSideBar(props) {
     )
 }
 
-export default RightSideBar;
+export default LeftSideBar;
 
-RightSideBar.propTypes = {
+LeftSideBar.propTypes = {
     className: PropTypes.string
 }

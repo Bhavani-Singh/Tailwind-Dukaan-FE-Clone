@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import Navbar from "./Navbar";
 import OverView from "./OverView";
 import Table from "./Table";
+import Footer from "./Footer";
 
 function MainContent(props) {
     return (
@@ -10,9 +11,10 @@ function MainContent(props) {
                 <Navbar />
            </div>
 
-           <div className="flex flex-col gap-4 p-4">
+           <div className="flex flex-col gap-4 p-4 justify-between">
                 <OverView />
                 <Table />
+                <Footer />
            </div>
         </div>
     )
